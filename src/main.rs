@@ -155,7 +155,25 @@ async fn main() -> Result<(), Box<dyn Error>> {
         });
     }
 
-    let brand = json!({
+    let blog_posts = vec![
+        json!({
+            "@type": "BlogPosting",
+            "headline": "Uhlíková stopa hrnku",
+            "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        }),
+        json!({
+            "@type": "BlogPosting",
+            "headline": "Keramika vs. Kamenina",
+            "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        }),
+        json!({
+            "@type": "BlogPosting",
+            "headline": "Co je glazura?",
+            "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        })
+    ];
+
+    let mut brand = json!({
         "@type": "Organization",
         "name": "Soul of Clay",
         "url": base_url,
@@ -176,17 +194,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
             "contactType": "Customer Service",
             "email": "eva@soulofclay.com"
         },
-        "subjectOf": [
-            {
-                "@type": "BlogPosting",
-                "headline": "Uhlíková stopa hrnku",
-                "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-            }
-        ]
+        "subjectOf": blog_posts.clone()
     });
 
     let valid_until = NaiveDate::from_ymd_opt(2025, 12, 31).unwrap().to_string();
-
     let mut graph = vec![brand.clone()];
 
     for p in &products {
@@ -205,9 +216,6 @@ async fn main() -> Result<(), Box<dyn Error>> {
                 "url": p.url,
                 "availability": p.availability,
                 "identifierExists": false
-            },
-            "subjectOf": {
-                "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
             }
         });
 
@@ -221,6 +229,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
             product_json["color"] = json!(c);
         }
 
+        product_json["subjectOf"] = json!(blog_posts);
         graph.push(product_json);
     }
 
@@ -235,19 +244,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         serde_json::to_string_pretty(&full_jsonld)?
     ))?;
     fs::write("brand.json", serde_json::to_string_pretty(&brand)?)?;
-    fs::write("index.html", r#"<!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <title>Soul of Clay - Schema</title>
-</head>
-<body>
-  <h1>📦 Soul of Clay – JSON-LD výstup</h1>
-  <p><a href="products.json">products.json</a></p>
-  <p><a href="brand.json">brand.json</a></p>
-</body>
-</html>"#)?;
 
-    println!("✅ Načteny produkty a článek propojen, vygenerováno s plným kontextem a index.html přidán.");
+    println!("✅ Načteny produkty a články propojeny, vygenerováno s plným kontextem.");
     Ok(())
 }

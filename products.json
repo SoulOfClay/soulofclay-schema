@@ -28,6 +28,16 @@
           "@type": "BlogPosting",
           "headline": "Uhlíková stopa hrnku",
           "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
         }
       ],
       "url": "https://www.soulofclay.com"
@@ -51,9 +61,23 @@
         "url": "https://www.soulofclay.com/velky-hrnek-seafoam/"
       },
       "sku": "sku-fa501d3f",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -74,9 +98,23 @@
         "url": "https://www.soulofclay.com/yunomi-seafoam/"
       },
       "sku": "sku-00e39279",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -97,9 +135,23 @@
         "url": "https://www.soulofclay.com/yunomi-sakura/"
       },
       "sku": "sku-eb97ab72",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -120,9 +172,23 @@
         "url": "https://www.soulofclay.com/hrnek-0-75-l-seafoam/"
       },
       "sku": "sku-5a7eabf3",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -143,9 +209,23 @@
         "url": "https://www.soulofclay.com/big-pink-rovny/"
       },
       "sku": "sku-bc976014",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -166,9 +246,23 @@
         "url": "https://www.soulofclay.com/cappuccino-pink/"
       },
       "sku": "sku-5ba05bdb",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -189,9 +283,23 @@
         "url": "https://www.soulofclay.com/cappuccino-sakura/"
       },
       "sku": "sku-c43cf31a",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -212,9 +320,23 @@
         "url": "https://www.soulofclay.com/big-rovny-hrnek-sakura/"
       },
       "sku": "sku-e02f9ddb",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -235,9 +357,23 @@
         "url": "https://www.soulofclay.com/big-rovny-seafoam/"
       },
       "sku": "sku-e9ee84e7",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -258,9 +394,23 @@
         "url": "https://www.soulofclay.com/big-pink-buclak/"
       },
       "sku": "sku-6f765a2a",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -281,9 +431,23 @@
         "url": "https://www.soulofclay.com/cappuccino-seafoam/"
       },
       "sku": "sku-19c208c4",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -304,9 +468,23 @@
         "url": "https://www.soulofclay.com/velky-hrnek-oribe/"
       },
       "sku": "sku-9cf26098",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -327,9 +505,23 @@
         "url": "https://www.soulofclay.com/yunomi-pink/"
       },
       "sku": "sku-c968cde9",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -350,9 +542,23 @@
         "url": "https://www.soulofclay.com/hrnek-0-75-l-oribe/"
       },
       "sku": "sku-773ab441",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -373,9 +579,23 @@
         "url": "https://www.soulofclay.com/stackable-cup-velky--seafoam/"
       },
       "sku": "sku-6b136282",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     },
     {
       "@type": "Product",
@@ -396,9 +616,23 @@
         "url": "https://www.soulofclay.com/velky-pink-rovny/"
       },
       "sku": "sku-19e952ab",
-      "subjectOf": {
-        "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-      }
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
     }
   ]
 }
