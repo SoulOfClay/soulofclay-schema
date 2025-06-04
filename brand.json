@@ -20,5 +20,12 @@
   "sameAs": [
     "https://www.facebook.com/hlavahlinena"
   ],
+  "subjectOf": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Uhlíková stopa hrnku",
+      "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+    }
+  ],
   "url": "https://www.soulofclay.com"
 }
