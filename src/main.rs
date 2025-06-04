@@ -205,6 +205,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
                 "url": p.url,
                 "availability": p.availability,
                 "identifierExists": false
+            },
+            "subjectOf": {
+                "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
             }
         });
 
@@ -217,10 +220,6 @@ async fn main() -> Result<(), Box<dyn Error>> {
         if let Some(ref c) = p.color {
             product_json["color"] = json!(c);
         }
-
-        product_json["subjectOf"] = json!({
-            "@id": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
-        });
 
         graph.push(product_json);
     }
@@ -236,7 +235,19 @@ async fn main() -> Result<(), Box<dyn Error>> {
         serde_json::to_string_pretty(&full_jsonld)?
     ))?;
     fs::write("brand.json", serde_json::to_string_pretty(&brand)?)?;
+    fs::write("index.html", r#"<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Soul of Clay - Schema</title>
+</head>
+<body>
+  <h1>📦 Soul of Clay – JSON-LD výstup</h1>
+  <p><a href="products.json">products.json</a></p>
+  <p><a href="brand.json">brand.json</a></p>
+</body>
+</html>"#)?;
 
-    println!("✅ Načteny produkty a článek propojen, vygenerováno s plným kontextem.");
+    println!("✅ Načteny produkty a článek propojen, vygenerováno s plným kontextem a index.html přidán.");
     Ok(())
 }
