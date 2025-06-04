@@ -173,7 +173,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         })
     ];
 
-    let mut brand = json!({
+    let brand = json!({
         "@type": "Organization",
         "name": "Soul of Clay",
         "url": base_url,
@@ -216,7 +216,8 @@ async fn main() -> Result<(), Box<dyn Error>> {
                 "url": p.url,
                 "availability": p.availability,
                 "identifierExists": false
-            }
+            },
+            "subjectOf": blog_posts
         });
 
         if let Some(ref m) = p.material {
@@ -229,7 +230,6 @@ async fn main() -> Result<(), Box<dyn Error>> {
             product_json["color"] = json!(c);
         }
 
-        product_json["subjectOf"] = json!(blog_posts);
         graph.push(product_json);
     }
 
@@ -244,7 +244,19 @@ async fn main() -> Result<(), Box<dyn Error>> {
         serde_json::to_string_pretty(&full_jsonld)?
     ))?;
     fs::write("brand.json", serde_json::to_string_pretty(&brand)?)?;
+    fs::write("index.html", r#"<!DOCTYPE html>
+<html lang=\"cs\">
+<head>
+  <meta charset=\"UTF-8\">
+  <title>Soul of Clay - Schema</title>
+</head>
+<body>
+  <h1>Soul of Clay – JSON-LD výstup</h1>
+  <p><a href=\"products.json\">products.json</a></p>
+  <p><a href=\"brand.json\">brand.json</a></p>
+</body>
+</html>"#)?;
 
-    println!("✅ Načteny produkty a články propojeny, vygenerováno s plným kontextem.");
+    println!("✅ Načteny produkty a články propojeny, vygenerováno s index.html.");
     Ok(())
 }
