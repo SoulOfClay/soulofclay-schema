@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://soulofclay.github.io/soulofclay-schema/sitemap_index.xml
