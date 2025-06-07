@@ -1,0 +1,638 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CZ",
+        "addressLocality": "Přestavlky u Čerčan",
+        "postalCode": "257 22",
+        "streetAddress": "Doubravice 1.díl 29"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "eva@soulofclay.com"
+      },
+      "description": "Autorské kameninové nádobí od Evy Slabé, vyráběné malosériově s vlastnoručně míchanými glazurami.",
+      "founder": "Eva Slabá",
+      "foundingLocation": "Praha, Česká republika",
+      "logo": "https://www.soulofclay.com",
+      "name": "Soul of Clay",
+      "sameAs": [
+        "https://www.facebook.com/hlavahlinena"
+      ],
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ],
+      "url": "https://www.soulofclay.com"
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/649-2_velky-hrnek-na-caj-1-litr-modry.jpg?661e7efb",
+      "name": "Velký hrnek na čaj 1 litr | modrá glazura SeaFoam",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 960.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/velky-hrnek-seafoam/"
+      },
+      "sku": "sku-fa501d3f",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/658-3_yunomi-kalisek-seafoam.jpg?662145ad",
+      "name": "Yunomi SeaFoam",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 420.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/yunomi-seafoam/"
+      },
+      "sku": "sku-00e39279",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/655-2_yunomi-kalisek-sakura.jpg?6621460f",
+      "name": "Yunomi Sakura",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 420.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/yunomi-sakura/"
+      },
+      "sku": "sku-eb97ab72",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/845-1_modry-kameninovy-hrnek-0-75-l.jpg?674706ce",
+      "name": "Hrnek 0,75 l SeaFoam",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 830.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/hrnek-0-75-l-seafoam/"
+      },
+      "sku": "sku-5a7eabf3",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/564_rovny-keramicky-hrnek--barbie-pink-ruzovy.png?654506a0",
+      "name": "Big hrnek rovný Pink",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 580.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/big-pink-rovny/"
+      },
+      "sku": "sku-bc976014",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/860_cappuccino-pink.jpg?674aebbb",
+      "name": "Cappuccino Pink",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 490.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/cappuccino-pink/"
+      },
+      "sku": "sku-5ba05bdb",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/854_kameninovy-kalisek-na-cappuccino--ruzovy.jpg?674717bb",
+      "name": "Cappuccino Sakura",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 490.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/cappuccino-sakura/"
+      },
+      "sku": "sku-c43cf31a",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/806_hrnek-o-5l-rovny-ruzovy.jpg?671a05a9",
+      "name": "Big rovný hrnek Sakura",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 580.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/big-rovny-hrnek-sakura/"
+      },
+      "sku": "sku-e02f9ddb",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/664-3_big-hrnek-seafoam.jpg?6621455e",
+      "name": "Big rovný SeaFoam",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 580.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/big-rovny-seafoam/"
+      },
+      "sku": "sku-e9ee84e7",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/561_kameninovy-buclak-ruzovy.png?654504ce",
+      "name": "Big buclák Pink",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 580.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/big-pink-buclak/"
+      },
+      "sku": "sku-6f765a2a",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/851_kameninovy-kalisek-na-cappuccino--modra-barva.jpg?674714f7",
+      "name": "Cappuccino SeaFoam",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 490.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/cappuccino-seafoam/"
+      },
+      "sku": "sku-19c208c4",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/694_velky-kameninovy-hrnek-giga-oribe.jpg?662251cb",
+      "name": "Velký hrnek na čaj 1 litr | glazura Oribe",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 960.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/velky-hrnek-oribe/"
+      },
+      "sku": "sku-9cf26098",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/613_yunomi-kalisek-pink.jpg?662147c3",
+      "name": "Yunomi Pink",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 420.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/yunomi-pink/"
+      },
+      "sku": "sku-c968cde9",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/815_hrnek-0-75-l-oribe.jpg?671a30f9",
+      "name": "Hrnek 0,75 l Oribe",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 830.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/hrnek-0-75-l-oribe/"
+      },
+      "sku": "sku-773ab441",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/750_stackable-cup-velky--seafoam.jpg?66991de1",
+      "name": "Stackable cup velký, SeaFoam",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 530.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/stackable-cup-velky--seafoam/"
+      },
+      "sku": "sku-6b136282",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Soul of Clay"
+      },
+      "description": "Ručně vyráběná keramika Soul of Clay",
+      "image": "https://cdn.myshoptet.com/usr/www.soulofclay.com/user/shop/detail/628_kameninovy-giga-hrnek--ruzova-barva-barbie-pink.jpg?65b5ef38",
+      "name": "Velký hrnek na čaj 1 litr | barva Pink",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "identifierExists": false,
+        "price": 960.0,
+        "priceCurrency": "CZK",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://www.soulofclay.com/velky-pink-rovny/"
+      },
+      "sku": "sku-19e952ab",
+      "subjectOf": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Uhlíková stopa hrnku",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Keramika vs. Kamenina",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Co je glazura?",
+          "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+        }
+      ]
+    }
+  ]
+}

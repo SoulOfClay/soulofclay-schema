@@ -1,0 +1,41 @@
+{
+  "@type": "Organization",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CZ",
+    "addressLocality": "Přestavlky u Čerčan",
+    "postalCode": "257 22",
+    "streetAddress": "Doubravice 1.díl 29"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Service",
+    "email": "eva@soulofclay.com"
+  },
+  "description": "Autorské kameninové nádobí od Evy Slabé, vyráběné malosériově s vlastnoručně míchanými glazurami.",
+  "founder": "Eva Slabá",
+  "foundingLocation": "Praha, Česká republika",
+  "logo": "https://www.soulofclay.com",
+  "name": "Soul of Clay",
+  "sameAs": [
+    "https://www.facebook.com/hlavahlinena"
+  ],
+  "subjectOf": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Uhlíková stopa hrnku",
+      "mainEntityOfPage": "https://www.soulofclay.com/blog/uhlikova-stopa-hrnku/"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Keramika vs. Kamenina",
+      "mainEntityOfPage": "https://www.soulofclay.com/blog/keramika-vs-kamenina/"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Co je glazura?",
+      "mainEntityOfPage": "https://www.soulofclay.com/blog/co-je-glazura/"
+    }
+  ],
+  "url": "https://www.soulofclay.com"
+}
